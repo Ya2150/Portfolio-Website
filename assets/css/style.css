@@ -930,7 +930,7 @@ header .navbar ul li a:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-    width: 300px;
+    width: 200px;
     height: 30rem;
   }
 }
