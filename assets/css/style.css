@@ -662,8 +662,8 @@ header .navbar ul li a:hover {
   color: rgb(216, 188, 32);
 }
 .work .box-container {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 1.5rem;
@@ -701,7 +701,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #ffd900;  
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -716,7 +716,7 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .work .desc p {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 .work .desc .btns {
   display: flex;
@@ -904,10 +904,10 @@ header .navbar ul li a:hover {
 
 /* work section media */
 
-@media screen and (max-width: 1310px) {
+/* @media screen and (max-width: 1310px) {
   .work .box-container {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     display: grid;
     grid-template-columns: auto auto auto ;
     gap: 1.5rem;
@@ -917,20 +917,20 @@ header .navbar ul li a:hover {
 
 @media screen and (max-width: 768px) {
   .work .box-container {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     display: grid;
     grid-template-columns: auto;
     gap: 1.5rem;
     margin-left: 0rem;
-  }
+  } 
   .work .box-container .box {
     flex: 1 1 30rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-    /* width: 200px; */
+    width: 200px;
     height: 25rem;
   }
 
@@ -939,7 +939,7 @@ header .navbar ul li a:hover {
     width: 320px;
     object-fit: cover;
   }
-}
+} */
 
 /* @media screen and (max-width: 300px) {
   .work .box-container {
