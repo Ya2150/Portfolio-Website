@@ -79,24 +79,24 @@ section {
 }
 .heading {
   font-size: 3.5rem;
-  color: rgb(63, 65, 66);
+  color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
 }
 .heading span {
-  color: rgb(63, 65, 66);
+  color: rgb(115, 3, 167);
 }
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
-  color: #076399;
+  color: #0e2431;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #bda419;
+  color: #fc8c05;
 }
 header .navbar ul {
   list-style: none;
@@ -117,8 +117,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #2470b8;
-  border-bottom: 0.2rem solid #bbac24;
+  color: #011aff;
+  border-bottom: 0.2rem solid #011aff;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -126,7 +126,7 @@ header .navbar ul li a:hover {
 /* hamburger icon starts*/
 #menu {
   font-size: 3rem;
-  cursor: pointer; 
+  cursor: pointer;
   color: rgb(24, 2, 63);
   display: none;
 }
@@ -226,15 +226,10 @@ header .navbar ul li a:hover {
   font-weight: 800;
   color: #002057;
 }
-.home .content h2 span .heritages {
-  font-size: 5rem;
-  font-weight: 800;
-  color: #7198db;
-}
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: rgb(180, 155, 9);
+  color: #ff7b00;
 }
 .home .content p {
   font-size: 2.5rem;
@@ -244,7 +239,7 @@ header .navbar ul li a:hover {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color:  #2066a8;
+  color: rgb(148, 8, 8);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -256,8 +251,8 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: linear-gradient(to bottom, rgb(1, 32, 61), #2470b8);
-  /* box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6); */
+  background: #2506ad;
+  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -271,8 +266,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: linear-gradient(to bottom,#2470b8, rgb(1, 32, 61) );
-  color:rgb(255, 255, 255)
+  background: #1a047e;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -295,7 +289,7 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #e7e7e7;
+  color: #00d9ff;
   background-color: #09011b;
   width: 44px;
   height: 44px;
@@ -313,19 +307,19 @@ header .navbar ul li a:hover {
   background-color: #0685da;
 }
 .social-icons a.github:hover {
-  background-color: #0685da;
+  background-color: #0e0e0e;
 }
 .social-icons a.twitter:hover {
-  background-color: #0685da;
+  background-color: #00aced;
 }
 .social-icons a.linkedin:hover {
-  background-color: #0685da;
+  background-color: #007bb6;
 }
 .social-icons a.dev:hover {
-  background-color: #0685da;
+  background-color: #070707;
 }
 .social-icons a.instagram:hover {
-  background-color: #0685da;
+  background-color: #ee00da;
 }
 /* social icons end */
 
@@ -383,11 +377,7 @@ header .navbar ul li a:hover {
   padding: 3rem;
 }
 .about .row .content h3 {
-  color: rgb(8, 74, 128);
-  font-size: 2.5rem;
-}
-.about .row .content h3 span{
-  color: rgb(180, 155, 9);
+  color: rgb(27, 27, 27);
   font-size: 2.5rem;
 }
 .about .row .content .tag {
@@ -471,13 +461,13 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #01203d, #2470b8);
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
   color: #fff;
 }
 .skills .heading span {
-  color:  rgb(216, 188, 32);
+  color: rgb(255, 230, 0);
 }
 .skills .container {
   background: rgba(0, 0, 22, 0.4);
@@ -652,22 +642,20 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom,#01203d, #2470b8);
+  background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2 {
   color: #fff;
   padding: 1rem;
 }
 .work .heading span {
-  color: rgb(216, 188, 32);
+  color: rgb(255, 230, 0);
 }
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
-  /* display: grid; */
-  /* grid-template-columns: auto auto auto auto; */
   gap: 1.5rem;
-  margin-left: -4rem;
+  margin: 2rem;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -675,7 +663,6 @@ header .navbar ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  /* width: 300px; */
   height: 30rem;
 }
 .work .box-container .box img {
@@ -701,7 +688,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;  
+  background: #ffd900;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -860,7 +847,7 @@ header .navbar ul li a:hover {
 }
 .experience .content .desc {
   margin-left: 1.5rem;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 .experience .content .desc h3 {
   font-size: 1.5rem;
@@ -901,56 +888,6 @@ header .navbar ul li a:hover {
 .morebtn .btn:hover i {
   transform: translateX(5px);
 }
-
-/* work section media */
-
-/* @media screen and (max-width: 1310px) {
-  .work .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    gap: 1.5rem;
-    margin-left: -10rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .work .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: auto;
-    gap: 1.5rem;
-    margin-left: 0rem;
-  } 
-  .work .box-container .box {
-    flex: 1 1 30rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-    width: 200px;
-    height: 25rem;
-  }
-
-  .work .box-container .box img {
-    height: 100%;
-    width: 320px;
-    object-fit: cover;
-  }
-} */
-
-/* @media screen and (max-width: 300px) {
-  .work .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: auto ;
-    gap: 1.5rem;
-    margin-left: -4rem;
-  }
-} */
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -1003,7 +940,7 @@ header .navbar ul li a:hover {
   width: 100%;
   background: #fff;
   border-radius: 1.5rem;
-  margin: 2rem auto;
+  margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .contact .container .content {
@@ -1104,13 +1041,13 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: linear-gradient(to bottom, rgb(1, 32, 61), #2470b8);
+  background: #2506ad;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: linear-gradient(to bottom,#2470b8, rgb(1, 32, 61));
+  background: #421cecf5;
 }
 .button-area span {
   font-size: 17px;
@@ -1154,7 +1091,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: linear-gradient(to bottom,#01203d, #2470b8);
+  background: rgb(0, 1, 43);
 }
 .footer .box-container {
   display: flex;
@@ -1224,7 +1161,7 @@ form .button-area {
   border-top: 0.1rem solid #fff3;
 }
 .footer .credit a {
-  color: #f8d614;
+  color: #ffae00;
 }
 .footer .fa {
   color: #e90606;
